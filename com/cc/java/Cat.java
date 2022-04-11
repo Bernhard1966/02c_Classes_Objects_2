@@ -12,33 +12,21 @@ public class Cat {
         this.age = age;
     }
 
-    // Schnittstelle
-    public String getName() {
-        if (hasPermission()) {
-            return name; 
-        } else {
-            return "No permission!"; 
+    public String getStringAttributes(String flag) {
+        switch (flag) {
+            case "#name":
+                return name;
+            case "#color":
+                return furColor;
+            default:
+                return "ERROR: ";
         }
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getFurColor() {
-        return furColor;
-    }
-
-    public void setFurColor(String furColor) {
-        this.furColor = furColor;
     }
 
     public int getAge() {
         return age;
     }
 
-    private boolean hasPermission() {
-        return true; // fake
-    }
+   
 
 }
