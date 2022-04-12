@@ -27,13 +27,21 @@ public class Cat {
     }
 
     public String getAge() {
+        return checkCompliance();
+    }
+
+    private String checkCompliance() {
         if (isFemale) {
-           // nicht OK!
-           return "This is an inappropriate question!"; 
-        } else {
-           // OK! 
-           return Integer.toString(age);
-        }
+            // nicht OK!
+            return checkEscalationLevel();
+         } else {
+            // OK! 
+            return Integer.toString(age);
+         }
+    }
+
+    private String checkEscalationLevel() {
+        return "This is an inappropriate question!"; 
     }
 
 
