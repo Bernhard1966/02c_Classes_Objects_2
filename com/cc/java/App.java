@@ -7,8 +7,8 @@ public class App
     {
         Cat cat = new Cat("Grizabella", "white", 29, true);
 
-        // output("Name: " + cat.getStringAttributes("#name"));
-        // output("Fellfarbe: " + cat.getStringAttributes("#color"));
+        output("Name: " + cat.getStringAttributes("#name"));
+        output("Fellfarbe: " + cat.getStringAttributes("#color"));
      
         output("Alter: " + cat.getAge());  
         output("Alter: " + cat.getAge());  
@@ -20,8 +20,8 @@ public class App
        
         Cat cat1 = new Cat("Alonzo", "black", 35, false);
 
-        // output("Name: " + cat1.getStringAttributes("#name"));
-        // output("Fellfarbe: " + cat1.getStringAttributes("#color"));
+        output("Name: " + cat1.getStringAttributes("#name"));
+        output("Fellfarbe: " + cat1.getStringAttributes("#color"));
    
    
         output("Alter: " + cat1.getAge());        
