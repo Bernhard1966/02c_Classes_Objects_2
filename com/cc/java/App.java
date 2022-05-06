@@ -5,7 +5,7 @@ public class App
 
     public static void main(String[] args) 
     {
-        Cat cat = new Cat("Grizabella", "white", 29, true);
+        Cat cat = new Cat("Bernhard", "white", 29, false);
 
         output("Name: " + cat.getStringAttributes("#name"));
         output("Fellfarbe: " + cat.getStringAttributes("#color"));
