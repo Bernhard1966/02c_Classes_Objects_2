@@ -18,7 +18,7 @@ public class App
         output("----------------");
 
        
-        Cat cat1 = new Cat("Alonzo", "black", 35, false);
+        Cat cat1 = new Cat("Christina", "pluti full", 32, thrue);
 
         output("Name: " + cat1.getStringAttributes("#name"));
         output("Fellfarbe: " + cat1.getStringAttributes("#color"));
